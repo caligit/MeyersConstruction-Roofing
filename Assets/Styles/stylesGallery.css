@@ -1,0 +1,57 @@
+/*
+	Meyers Construction gallery Style Sheet
+	
+	Author: PAtrick Callahan
+	Date: 07/26/2020
+	Filename:  main.css
+	Supporting files: None
+*/
+
+/*Display HTML5 structural elements as blacks */
+
+
+/*gallery styles*/
+
+article img{
+	height: 95px;
+	width: 95px;
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #36312d;
+	border-width: 1px;
+	box-shadow: -2px -2px 7px #36312d;
+}
+
+article img:hover{
+	height: 99px;
+	width: 99px;
+}
+
+article img:active{
+	box-shadow: -1px -1px 4px #36312d;
+	position: relative;
+	bottom: 1px;
+	right: 1px;
+}
+
+
+article a{
+	display: hidden;
+}
+
+
+.galleryContainer{
+	margin: 20px;
+	height: 75px;
+	width: 75px;
+}
+
+#container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+
+

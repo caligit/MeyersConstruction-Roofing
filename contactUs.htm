@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!--
+		Young Notes Website
+		Author: Patrick Callahan
+		Date: 07/26/2020
+		
+		Filename: contactUs.htm
+		Supporting Files:  resetScript.js, main.css
+		
+      -->
+	  
+	  <meta charset="UTF-8" />
+	  <meta name="description" content="Meyers Roofing of St. Louis specializes in roofing repair
+			 maintenance programs, new roof installs. Free quotes and 
+			 24/7 service." />
+	  <title>Contact Meyers Construction &amp; Consulting</title>
+	  <link href="Assets\Styles\main.css" rel="stylesheet" type="text/css" />
+	  <link href="Assets\Styles\stylesContactUs.css" rel="stylesheet" type="text/css" />
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="shortcut icon" href="Assets\Images\Meyers Roofing.jpeg">
+      <link rel="apple-touch-icon" href="Assets\Images\Meyers Roofing.jpeg">
+      <link rel="icon" sizes="192x192" href="Assets\Images\Meyers Roofing.jpeg">
+	  <script src="Assets\Javascripts\modernizr.custom.40753.js"></script>
+   </head>
+   <body>
+	  <header>
+		 <h1>Meyers Construction & Consulting</h1>
+         <h4>Professional Roofing, Roof Maintenance, and Consulting</h4>
+	  </header>
+	  <nav>
+		 <ul>
+			<li><a href="index.htm">Home</a></li>
+			<li><a href="services.htm">Services</a></li>
+			<li><a href="gallery.htm">Gallery</a></li>
+			<li><a href="aboutUs.htm">About Us</a></li>
+			<li><a href="contactUs.htm">Free Quote or Contact Us</a></li>
+		 </ul>
+	  </nav>
+	  <section id="main">
+		 <aside>
+			<h1>Contact Us</h1>
+			<p>For a quote on a job, submit your name and information in the form. Our professional staff will respond within 24 hours to arrange an appointment and free estimate. </p>
+			<p>You may also feel free to contact us as anytime using the information below.</p>
+			<div class="contactContainer">
+				<div>Meyers Construction &amp; Consulting</div>
+				<a href="mailto:meyersconstructionconsulting@gmail.com">meyersconstructionconsulting@gmail.com</a>
+				<div>(314)-283-9384</div>
+			</div>
+			<p>Or check us out on Facebook and LinkedIn by clicking on the below links.</p>
+		 </aside>
+		 <article>
+			 <h1>Free Quote</h1>
+			 <form action="results.htm">
+				<fieldset>
+					<legend>Contact Information</legend>
+					<label for="fnameinput">First Name
+						<input type="text" id="fnameinput" name="fname" required>
+					</label>
+					<label for="lnameinput">Last Name
+						<input type="text" id="lnameinput" name="lname" required>
+					</label>
+					<label for="emailinput">Emails
+						<input type="email" id="emailinput" name="email" placeholder="example@hello.com" pattern=".+@.+\..+" required>
+					</label>
+					<label for="phoneinput">Phone
+						<input type="tel" pattern="\d{3}-\d{3}-\d{4}" id="phoneinput" name="phone" placeholder="format ###-###-####" required>
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend>Address Information</legend>
+					<label for="streetaddress">Address
+						<input type="text" id="streetaddress" name="street"/>
+					</label>
+					<label for="cityaddress">City
+						<input type="text" id="cityaddress" name="city"/>
+					</label>
+					<label for="stateaddress">State
+						<input type="text" id="stateaddress" name="state"/>
+					</label>
+					<label for="zipaddress">Zip
+						<input type="text" id="zipaddress" name="zip"/>
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend>Additional Information</legend>
+					<label for="feedback">Special Comments</label>
+					<textarea id="feedback" name="feedback" rows="7" cols="45"></textarea>
+				</fieldset>
+				<fieldset id="inputFieldset">
+					<div><input type="submit" id="submit" value="Submit"></div>
+					<div><input type="button" id="reset" value="Reset"></div>
+				</fieldset>
+			</form>
+			 <br/>
+			 <br/>
+		 </article>
+	  </section>
+	  <footer>
+		 <address>
+			<div>Meyers Construction &amp; Consulting  &#183;  </div>
+			<a href="mailto:meyersconstructionconsulting@gmail.com">meyersconstructionconsulting@gmail.com</a>
+			<div>  &#183;  (314)-283-9384</div>
+		 </address>
+		 <div class="iconContainer">
+		    <a title="facebook" href="https://www.facebook.com/Meyers-Construction-and-Consulting-216274935637520/" class="fa fa-facebook" target="_blank"></a>
+		    <a title="linkedin" href="https://www.linkedin.com/in/rorymeyers/" class="fa fa-linkedin" target="_blank"></a>
+	     </div>
+	  </footer>
+	  <img id="pageImage" src="Assets\Images\Meyers Construction & Roofing Logo.jpg" alt="Meyers Construction & Consulting" />
+	  <script src="Assets\Javascripts\resetScript.js"></script>
+   </body>
+	
+</html>
